@@ -1,0 +1,82 @@
+.line {
+    border-bottom: 1px solid #676c6e;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.heder__title {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #1E2E36;
+}
+
+.heder__social {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.heder__social__item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.header__tel {
+    display: flex;
+    align-items: center;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    align-items: flex-end;
+    text-transform: uppercase;
+    color: #1E2E36;
+}
+
+.header__tel-icon {
+    margin-right: 5px;
+}
+
+.nav__pages {
+    display: flex;
+
+}
+
+
+
+.nav__page__link-activ {
+    border-bottom: 3px solid var(--accent-color)
+}
+
+.nav__page__link {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    color: #1E2E36;
+
+
+}
+
+.nav__pages_item:not(:last-child) {
+    margin-right: 15px;
+}
