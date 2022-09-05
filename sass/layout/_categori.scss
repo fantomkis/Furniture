@@ -1,0 +1,158 @@
+.categori__list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 84px;
+}
+
+.categori__link {
+    display: flex;
+
+    flex-direction: column;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2E36;
+}
+
+.categori__icon {
+    margin-bottom: 10px;
+
+}
+
+.categori__item-activ::after {
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 3px;
+    background: #44C697;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.categori__product_list {
+    margin-bottom: 50px;
+}
+
+.categori__product__item {
+    width: 586px;
+    position: relative;
+}
+
+.categori__product__link:hover>.inform {
+    background: #44C697;
+}
+
+.categori__seil {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin: 0;
+    padding: 7px 15px 3px 15px;
+    background: #1E2E36;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.action {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    margin: 0;
+    padding: 7px 15px 3px 15px;
+    width: 84px;
+    height: 33px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    /* identical to box height, or 22px */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #FF1B1B;
+}
+
+.inform {
+    display: flex;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2E36;
+    padding: 15px;
+    justify-content: space-between;
+
+
+}
+
+.inform__title {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    /* identical to box height, or 30px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* color4 */
+
+    color: #1E2E36;
+}
+
+.accent-color {
+    color: #FF1B1B;
+
+}
+
+.old-price {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #BCBDBB;
+    margin-left: 10px;
+}
+
+
+.categori__btn {
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 190px;
+    height: 51px;
+    background: #44C697;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}

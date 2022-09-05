@@ -1,0 +1,111 @@
+.sections {
+    padding-top: 100px;
+}
+
+.benefits {
+    display: flex;
+}
+
+.title {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    /* identical to box height, or 60px */
+    text-align: center;
+    color: #1E2E36;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title::before {
+
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 50px;
+    background: #44C697;
+    margin-right: -14px;
+}
+
+.benefits__list {
+    display: flex;
+}
+
+.benefits__item__title {
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+    width: 356px;
+    color: #FFFFFF;
+    border-bottom: 3px solid #44C697;
+
+    margin-bottom: 18px;
+
+}
+
+.benefits__item {
+    width: 586;
+    min-height: 350;
+    display: block;
+    padding: 30px;
+
+    border-radius: 3px;
+
+    // position: relative;
+}
+
+.benefits__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.catch {
+    display: block;
+
+    background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)),
+        url('../../images/benefits/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 586px 350px
+}
+
+.talks {
+    background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)),
+        url('../../images/benefits/2.png');
+    // background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 586px 350px
+}
+
+.car {
+    background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)),
+        url('../../images/benefits/3.png');
+    // background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 586px 350px
+}
+
+.benefits__label {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    /* or 22px */
+
+
+    /* greyscale/000 */
+
+    color: #FFFFFF;
+
+}
+
+// .text {
+//     position: absolute;
+// }

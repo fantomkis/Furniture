@@ -1,0 +1,39 @@
+.about {
+    margin-bottom: 100px;
+}
+
+.about__text {
+    width: 806px;
+    height: 475px;
+    border-right: 15px solid #44C697;
+    border-radius: 0px 3px 3px 0px;
+    background: #FFFFFF;
+    padding: 50px 30px 50px 51px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.22;
+    color: #1E2E36;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 20px;
+}
+
+.about__img {
+    display: block;
+    margin-left: auto;
+}
+
+.text-accent {
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: #44C697;
+}
+
+.text__retreat {
+    margin: 15px 0;
+}
