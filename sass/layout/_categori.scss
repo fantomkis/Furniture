@@ -18,6 +18,7 @@
     color: #1E2E36;
 }
 
+
 .categori__icon {
     margin-bottom: 10px;
 
@@ -42,10 +43,28 @@
 .categori__product__item {
     width: 586px;
     position: relative;
+    transition: transform var(--transition);
+
+
+    &:hover,
+    &:focus {
+        transform: translateY(-25px);
+    }
+
 }
 
 .categori__product__link:hover>.inform {
     background: #44C697;
+
+}
+
+.categori__product__link:hover>.inform>.inform__title {
+    color: #FFFFFF;
+}
+
+.categori__product__link:hover>.inform>.inform__title>.old-price {
+    color: #FFFFFF;
+
 }
 
 .categori__seil {
