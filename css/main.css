@@ -257,20 +257,20 @@ h6 {
 
 .catch {
   display: block;
-  background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)), url("../../images/benefits/1.png");
+  background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)), url("./../images/benefits/1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 586px 350px;
 }
 
 .talks {
-  background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)), url("../../images/benefits/2.png");
+  background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)), url("./../images/benefits/2.png");
   background-repeat: no-repeat;
   background-size: 586px 350px;
 }
 
 .car {
-  background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)), url("../../images/benefits/3.png");
+  background: linear-gradient(0deg, rgba(30, 46, 54, 0.5), rgba(30, 46, 54, 0.5)), url("./../images/benefits/3.png");
   background-repeat: no-repeat;
   background-size: 586px 350px;
 }
@@ -839,7 +839,7 @@ h6 {
 
 .hero {
   height: 785px;
-  background-image: url("../../images/hero/hero.jpg");
+  background-image: url("./../images/hero/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
